@@ -1,0 +1,98 @@
+Optimizing Linkage Editor (V.9.04.01.000)         18-Jan-2009 18:09:47
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\gdOS\gdOS\Debug\gdOS.hlk
+-noprelink
+-rom=D=R
+-nomessage
+-list="C:\WorkSpace\gdOS\gdOS\Debug\gdOS.map"
+-nooptimize
+-start=PResetPRG,PIntPRG/0400,P,C,C$DSEC,C$BSEC,D/0800,B,R/0FFE000,S/0FFFD80
+-nologo
+-input="C:\WorkSpace\gdOS\gdOS\Debug\dbsct.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\gdOS.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\intprg.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\kernel_cfg.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\knl_flg.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\knl_h8.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\knl_h8_ctx.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\knl_tim.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\knl_tsk.obj"
+-input="C:\WorkSpace\gdOS\gdOS\Debug\resetprg.obj"
+-library="C:\WorkSpace\gdOS\gdOS\Debug\gdOS.lib"
+-output="C:\WorkSpace\gdOS\gdOS\Debug\gdOS.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+$VECT0
+                                  00000000  00000003         4   2
+$VECT7
+                                  0000001c  0000001f         4   2
+$VECT8
+                                  00000020  00000023         4   2
+$VECT9
+                                  00000024  00000027         4   2
+$VECT10
+                                  00000028  0000002b         4   2
+$VECT11
+                                  0000002c  0000002f         4   2
+$VECT12
+                                  00000030  00000033         4   2
+$VECT13
+                                  00000034  00000037         4   2
+$VECT14
+                                  00000038  0000003b         4   2
+$VECT15
+                                  0000003c  0000003f         4   2
+$VECT16
+                                  00000040  00000043         4   2
+$VECT17
+                                  00000044  00000047         4   2
+$VECT18
+                                  00000048  0000004b         4   2
+$VECT19
+                                  0000004c  0000004f         4   2
+$VECT22
+                                  00000058  0000005b         4   2
+$VECT23
+                                  0000005c  0000005f         4   2
+$VECT24
+                                  00000060  00000063         4   2
+$VECT25
+                                  00000064  00000067         4   2
+$VECT26
+                                  00000068  0000006b         4   2
+$VECT27
+                                  0000006c  0000006f         4   2
+$VECT29
+                                  00000074  00000077         4   2
+$VECT32
+                                  00000080  00000083         4   2
+$VECT34
+                                  00000088  0000008b         4   2
+PResetPRG
+                                  00000400  00000415        16   2
+PIntPRG
+                                  00000416  00000455        40   2
+P
+                                  00000800  0000112b       92c   2
+C
+                                  0000112c  00001167        3c   2
+C$DSEC
+                                  00001168  00001173         c   2
+C$BSEC
+                                  00001174  0000117b         8   2
+D
+                                  0000117c  00001183         8   2
+B
+                                  00ffe000  00ffea5d       a5e   2
+R
+                                  00ffea5e  00ffea65         8   2
+S
+                                  00fffd80  00ffff7f       200   2

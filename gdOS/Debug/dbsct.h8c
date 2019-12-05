@@ -1,0 +1,9 @@
+-cpu=300HA:24
+-include="C:\WorkSpace\gdOS\gdOS","C:\WorkSpace\gdOS\gdOS\include"
+-object="C:\WorkSpace\gdOS\gdOS\Debug\dbsct.obj"
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\gdOS\gdOS\dbsct.c"
+-lang=c
+-nologo

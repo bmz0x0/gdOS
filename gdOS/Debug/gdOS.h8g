@@ -1,0 +1,3 @@
+-cpu=300HA:24
+-output="C:\WorkSpace\gdOS\gdOS\Debug\gdOS.lib"
+-head=runtime

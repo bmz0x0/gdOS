@@ -1,0 +1,10 @@
+"C:\WorkSpace\gdOS\gdOS\kernel\knl_h8_ctx.src"
+-cpu=300HA:24
+-include="C:\WorkSpace\gdOS\gdOS\include"
+-include="C:\WorkSpace\gdOS\gdOS"
+-debug
+-object="C:\WorkSpace\gdOS\gdOS\Debug\knl_h8_ctx.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

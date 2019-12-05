@@ -1,0 +1,9 @@
+-cpu=300HA:24
+-include="C:\WorkSpace\gdOS\gdOS","C:\WorkSpace\gdOS\gdOS\include"
+-object="C:\WorkSpace\gdOS\gdOS\Debug\knl_flg.obj"
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\gdOS\gdOS\kernel\knl_flg.c"
+-lang=c
+-nologo
